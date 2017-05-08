@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64DiffService", "Base64DiffService.csproj", "{BC03EE0E-70A4-4D90-9964-6C1796CC8955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64DiffServiceTestCase", "..\Base64DiffServiceTestCase\Base64DiffServiceTestCase.csproj", "{F43DD826-9752-45A1-B7F6-FD48164C2918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F8A3674D-E618-4FA5-9615-4D98CAD47443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC03EE0E-70A4-4D90-9964-6C1796CC8955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC03EE0E-70A4-4D90-9964-6C1796CC8955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC03EE0E-70A4-4D90-9964-6C1796CC8955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC03EE0E-70A4-4D90-9964-6C1796CC8955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43DD826-9752-45A1-B7F6-FD48164C2918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43DD826-9752-45A1-B7F6-FD48164C2918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43DD826-9752-45A1-B7F6-FD48164C2918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43DD826-9752-45A1-B7F6-FD48164C2918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
