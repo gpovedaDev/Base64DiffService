@@ -15,16 +15,7 @@ namespace Base64DiffServiceTestCase
         [Fact]
         public void TestNotFoundData()
         {
-            Assert.Equal(1, 2);
-           /* using (var server = TestServer.Create<Startup>())
-            {
-                var result = await server.HttpClient.GetAsync("v1/diff/7");
-                string responseContent = await result.Content.ReadAsStringAsync();
-                var entity = JsonConvert.DeserializeObject<string>(responseContent);
-
-                Assert.Equal(1,2);
-                System.Console.Out.WriteLine(entity);
-            }*/
+           
         }
     }
 }
